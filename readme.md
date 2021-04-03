@@ -48,15 +48,15 @@ Step 4. Execute the tasks.robot file and the output files will then be found in 
 /output/CryptoPortfolioTreeMap.png
 ```
 
-![CryptoPortfolioTable](https://github.com/jeev20/CryptoPortfolioTaxReporting/blob/main/output/CryptoPortfolio.csv)
+![CryptoPortfolioTable](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolio.csv)
 
 
 
-![PieChart](https://github.com/jeev20/CryptoPortfolioTaxReporting/blob/main/output/CryptoPortfolioPieChart.png)
+![PieChart](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolioPieChart.png)
 
 
 
-![TreeMapChart](https://github.com/jeev20/CameraBackupPowerShell/blob/main/output/CryptoPortfolioTreeMap.png)
+![TreeMapChart](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolioTreeMap.png)
 
 
 ## Thanks to 
