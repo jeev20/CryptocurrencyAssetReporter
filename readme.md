@@ -56,7 +56,7 @@ Step 4. Execute the tasks.robot file and the output files will then be found in 
 
 
 
-![TreeMapChart](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolioTreeMap.png)
+![TreeMapChart](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolioTreeMapChart.png)
 
 
 ## Thanks to 
