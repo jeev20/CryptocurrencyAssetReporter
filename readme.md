@@ -1,4 +1,4 @@
-# Crypto Asset Report - Tax Returns
+# Crypto Asset Report - Tax Return
 ## Why use this robot? 
 In Norway, the government mandates that al cryptocurrency holdings are reported in the yearly tax return statement. 
 However, unlike the stock market or bank accounts, the value of cryptocurrencies are volatile. The requirement is that individuals report the value of the asset as of the 1st day of the new year. To do this manually is not worth the time, what if we can automate it? 
