@@ -11,6 +11,15 @@ def GetCryptoPortfolio(year, cryptoCurrencies, inFiatCurrency):
     
     Thanks to Coingecko for an amazing free API.
     
+    Parameters:
+        year (string):The year in YYYY format.
+        cryptoCurrencies (dictionary):Keys are name of the cryptocurrency and values
+        are positions for each cryptocurrency.
+        inFiatCurrency (string):The fiat currency in which the value needs to be returned 
+        input examples "usd", "nok", "sek" etc. 
+
+    Returns:
+        df(dataframe):The dataframe containing the portfolio value.
     """
     date = "01-01-"+year
     
@@ -46,6 +55,16 @@ def GetCryptoPortfolio(year, cryptoCurrencies, inFiatCurrency):
 #df
 # -
 def CreatePortfolioPieChart(fiatCurrency):
+    """
+    This function generates a pie chart of the portfolio in the input fiat currency.
+    
+    Parameters:
+        inFiatCurrency (string):The fiat currency in which the value needs to be returned 
+        input examples "usd", "nok", "sek" etc. 
+
+    Returns:
+        none
+    """
     import matplotlib.pyplot as plt
     import pandas as pd
     df = pd.read_csv("output/CryptoPortfolio.csv")
@@ -84,6 +103,16 @@ def CreatePortfolioPieChart(fiatCurrency):
 # -
 
 def CreatePortfolioTreeMapChart(fiatCurrency):
+    """
+    This function generates a TreeMap chart of the portfolio in the input fiat currency.
+    
+    Parameters:
+        inFiatCurrency (string):The fiat currency in which the value needs to be returned 
+        input examples "usd", "nok", "sek" etc. 
+
+    Returns:
+        none
+    """
     import matplotlib.pyplot as plt
     import pandas as pd
     import squarify
