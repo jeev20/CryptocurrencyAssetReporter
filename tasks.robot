@@ -13,7 +13,7 @@ ${inFiatCurrency}  nok  # any fiat currency supported by CoinGecko
 # +
 *** Keywords ***
 Get CryptoPortfolio Table
-    ${portfolio} =  GetCryptoPortfolio  2021  ${cryptoCurrencies}   ${inFiatCurrency}
+    ${portfolio} =  GetCryptoPortfolio  ${year}   ${cryptoCurrencies}   ${inFiatCurrency}
 
 Read CryptoPortfolio Table
     ${portfolioTable} =  Read Table From Csv    output/CryptoPortfolio.csv
