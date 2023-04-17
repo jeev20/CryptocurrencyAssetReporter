@@ -28,7 +28,7 @@ Clone this repository and ensure your RCC in VS Code and Robocorp extensions is 
 
 Step 1. Copy or Clone the contents of this repository 
 
-Step 2. Open the project in Robcorp Lab and open the tasks.robot file 
+Step 2. Open the project in VS Code and open the tasks.robot file 
 
 Step 3. Change the variables as required 
          year (string), 
