@@ -10,8 +10,8 @@ Through this Robocorp Robot script, I have tried to make the process of calculat
 - The Robot uses the CoinGecko Historial Dataset API to poll the values of each input cryptocurrency. 
 - The API calls are written in standard python functions in the "GetCryptoPortfolio.py" file
 - The function GetCryptoPortfolio takes three inputs, namely year (the year you are trying to get the data for), cryptoCurrencies (dictonary of cryptocurrencies and your positions), inFiatCurrency (the fiat currency you want to get the value in)
-- The function CreatePortfolioPieChart takes "FiatCurrency" as input and saves a pie chart of the value in /output/CryptoPortfolioPieChart.png
-- The function CreatePortfolioTreeMapChart takes "FiatCurrency" as input and saves a TreeMap chart of the value in /output/CryptoPortfolioTreeMap.png
+- The function CreatePortfolioPieChart takes "FiatCurrency" as input and saves a pie chart of the value in /results/CryptoPortfolioPieChart.png
+- The function CreatePortfolioTreeMapChart takes "FiatCurrency" as input and saves a TreeMap chart of the value in /results/CryptoPortfolioTreeMap.png
 
 ## What does tasts.robot script do?
 - Sets the variables, settings and keywords. 
@@ -20,8 +20,8 @@ Through this Robocorp Robot script, I have tried to make the process of calculat
 - The output .csv and .png files are stored in the "/output" folder.
 
 ## Preconditions 
-Ensure you setup your Robocorp Lab instance to be able to run this robot in attended mode. 
-Clone this repository and ensure your RCC in Robocorp lab is connected to your python instance. Robocorp Lab will parse the conda.yaml file to install all dependecies for this project using pip. 
+Ensure you setup your VS Code and Robocorp extensions to be able to run this robot in attended mode. 
+Clone this repository and ensure your RCC in VS Code and Robocorp extensions is connected to your python instance. VS Code and Robocorp extensions will parse the conda.yaml file to install all dependecies for this project using pip. 
 
 
 ## Running the script 
@@ -43,20 +43,20 @@ ${inFiatCurrency}  nok  # any fiat currency supported by CoinGecko
 
 Step 4. Execute the tasks.robot file and the output files will then be found in this following relative path in the project. 
 ```
-/output/CryptoPortfolio.csv
-/output/CryptoPortfolioPieChart.png
-/output/CryptoPortfolioTreeMap.png
+/results/CryptoPortfolio.csv
+/results/CryptoPortfolioPieChart.png
+/results/CryptoPortfolioTreeMap.png
 ```
 
-![CryptoPortfolioTable](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolio.csv)
+![CryptoPortfolioTable](https://github.com/jeev20/CryptoAssetReport/blob/main/results/CryptoPortfolio.csv)
 
 
 
-![PieChart](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolioPieChart.png)
+![PieChart](https://github.com/jeev20/CryptoAssetReport/blob/main/results/CryptoPortfolioPieChart.png)
 
 
 
-![TreeMapChart](https://github.com/jeev20/CryptoAssetReport/blob/main/output/CryptoPortfolioTreeMapChart.png)
+![TreeMapChart](https://github.com/jeev20/CryptoAssetReport/blob/main/results/CryptoPortfolioTreeMapChart.png)
 
 
 ## Thanks to 
