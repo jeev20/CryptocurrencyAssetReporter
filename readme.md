@@ -58,11 +58,11 @@ The resulting output csv:
 |            |                |           |              |                    |
 
 
-![PieChart](https://github.com/jeev20/CryptoAssetReport/blob/main/results/CryptoPortfolioPieChart.png)
+![PieChart](/results/CryptoPortfolioPieChart.png)
 
 
 
-![TreeMapChart](https://github.com/jeev20/CryptoAssetReport/blob/main/results/CryptoPortfolioTreeMapChart.png)
+![TreeMapChart](/results/CryptoPortfolioTreeMapChart.png)
 
 
 ## Thanks to 
